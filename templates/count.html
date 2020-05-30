@@ -1,0 +1,25 @@
+<h1>CountPage</h1>
+<h2>Ur text entered is </h2>
+{{msg}}
+<h3>This text contains {{noofwords}} words </h3>
+<h3>count r,r,,k,l,s</h3>
+{{abc}}
+<hr/>
+<b>all words count</b>
+<ol type="1">
+    {% for key, value in abc.items %}
+    <li>{{key}}:{{ value }}</li>
+    {% endfor %}
+</ol>
+
+<hr/>
+
+<b>all words count </b>
+
+<ol type="1">
+{% for key, value in cba %}
+<li>{{key}}:{{value}}</li>
+{% endfor %}
+</ol>
+
+
